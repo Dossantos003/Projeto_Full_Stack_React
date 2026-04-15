@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 40px 10px 14px;
+    border: 0.5px solid #0000003c;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.title {
+font-size: 16px;
+font-weight: 600;
+color: #303030;
+}
+
+.tech {
+display: flex;
+gap: 16px;
+}
+
+.stack {
+    display: flex;
+color: #9c9c9c;
+font-size: 12px;
+}
+
+.circle {
+    width:10px;
+    height:10px;
+    border-radius: 100px;
+    background-color: #FFA600;
+}
